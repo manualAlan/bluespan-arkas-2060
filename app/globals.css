@@ -346,6 +346,7 @@ h1 {
 }
 
 .events-section {
+  border-top: 12px solid var(--gold);
   padding: clamp(54px, 7vw, 96px) clamp(18px, 5vw, 72px);
   background: white;
 }
