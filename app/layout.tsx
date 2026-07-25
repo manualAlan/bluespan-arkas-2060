@@ -41,8 +41,20 @@ export const metadata: Metadata = {
     images: [`${basePath}/og.png`],
   },
   icons: {
-    icon: `${basePath}/favicon.svg`,
-    shortcut: `${basePath}/favicon.svg`,
+    icon: [
+      {
+        url: `${basePath}/favicon-32.png`,
+        sizes: "32x32",
+        type: "image/png",
+      },
+      {
+        url: `${basePath}/favicon-64.png`,
+        sizes: "64x64",
+        type: "image/png",
+      },
+    ],
+    shortcut: `${basePath}/favicon-32.png`,
+    apple: `${basePath}/apple-touch-icon.png`,
   },
 };
 
