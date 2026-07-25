@@ -462,6 +462,28 @@ footer p {
   font-weight: 900;
 }
 
+.footer-legal {
+  display: grid;
+  gap: 9px;
+  justify-items: end;
+  max-width: 570px;
+}
+
+.paid-for {
+  border: 1px solid #111111;
+  padding: 9px 13px;
+  color: #111111;
+  font-weight: 700;
+}
+
+.footer-fine-print {
+  max-width: 570px;
+  color: #68758b;
+  font-size: 11px;
+  line-height: 1.45;
+  text-align: right;
+}
+
 @media (max-width: 980px) {
   html {
     scroll-padding-top: 150px;
@@ -582,5 +604,13 @@ footer p {
   footer {
     align-items: flex-start;
     flex-direction: column;
+  }
+
+  .footer-legal {
+    justify-items: start;
+  }
+
+  .footer-fine-print {
+    text-align: left;
   }
 }

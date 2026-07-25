@@ -211,7 +211,13 @@ export default function Home() {
           <strong>Bluespan Arkas</strong>
           <span>2060</span>
         </p>
-        <p>Paid for by Friends of Bluespan Arkas.</p>
+        <div className="footer-legal">
+          <p className="paid-for">Paid for by Friends of Bluespan Arkas.</p>
+          <p className="footer-fine-print">
+            &copy; 2020 Friends Of Bluespan Arkas. All Rights Reserved. Privacy
+            Policy. Montiablo, MB 07102
+          </p>
+        </div>
       </footer>
     </main>
   );
