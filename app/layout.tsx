@@ -43,18 +43,18 @@ export const metadata: Metadata = {
   icons: {
     icon: [
       {
-        url: `${basePath}/favicon-32.png`,
+        url: `${basePath}/favicon-portrait-32-v2.png`,
         sizes: "32x32",
         type: "image/png",
       },
       {
-        url: `${basePath}/favicon-64.png`,
+        url: `${basePath}/favicon-portrait-64-v2.png`,
         sizes: "64x64",
         type: "image/png",
       },
     ],
-    shortcut: `${basePath}/favicon-32.png`,
-    apple: `${basePath}/apple-touch-icon.png`,
+    shortcut: `${basePath}/favicon-portrait-32-v2.png`,
+    apple: `${basePath}/apple-touch-icon-v2.png`,
   },
 };
 
