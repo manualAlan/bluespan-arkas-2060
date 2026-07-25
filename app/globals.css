@@ -138,6 +138,10 @@ h1 {
   line-height: 1;
 }
 
+.tagline span {
+  display: block;
+}
+
 .intro-section {
   padding: clamp(30px, 5vw, 56px) clamp(18px, 5vw, 72px);
   text-align: center;

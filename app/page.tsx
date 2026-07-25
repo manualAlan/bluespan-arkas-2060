@@ -72,7 +72,10 @@ export default function Home() {
           <p className="eyebrow">Caprica 2060</p>
           <h1>Alan Bluespan III</h1>
           <p className="tagline">
-            Caprican. Economist. Entrepreneur. Not a career politician.
+            <span>Caprican,</span>
+            <span>Economist,</span>
+            <span>Entrepreneur,</span>
+            <span>Not a politician.</span>
           </p>
         </div>
         <div className="hero-image">
