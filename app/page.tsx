@@ -32,20 +32,16 @@ const timeline = [
     text: "Alan graduates cum laude from the University of Caille with degrees in law and economics.",
   },
   {
-    year: "2029-35",
-    text: "Alan joins Caprica's Treasury Office of Economic Analysis, where his competition index and debt warnings earn him a national reputation.",
+    year: "2029-40",
+    text: "Alan joins Caprica's Treasury Office of Economic Analysis. He helps redesign sovereign-bond auctions and dealer rules; his work on the bond market earns him a national reputation.",
   },
   {
-    year: "2036-42",
-    text: "Alan co-founds Meridian Economic Partners and later chairs the Northstar Exchange, helping firms restructure without taxpayer rescues.",
+    year: "2041-52",
+    text: "Alan co-founds Meridian Ventures, backing payment infrastructure, industrial software, and logistics firms while becoming a leading voice on technology-led productivity.",
   },
   {
-    year: "2043-47",
-    text: "Returning to public service, Alan chairs the National Council of Economic Advisers and publishes The Quiet State, his landmark work on crisis prevention.",
-  },
-  {
-    year: "2048-59",
-    text: "Alan restores price stability as governor of the Central Reserve, then leads the commission that returns emergency financial authority to the legislature.",
+    year: "2052-59",
+    text: "Alan chairs the Caprica Growth Partnership, bringing pension funds, universities, manufacturers, and provincial governments together to finance ports, grid storage, and technical apprenticeships.",
   },
   {
     year: "2060",
