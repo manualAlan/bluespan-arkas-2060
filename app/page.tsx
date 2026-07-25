@@ -33,19 +33,19 @@ const timeline = [
   },
   {
     year: "2029-35",
-    text: "As a public-interest attorney, Alan defends ballot access, local associations, and small enterprises against arbitrary state action.",
+    text: "Alan joins Caprica's Treasury Office of Economic Analysis, where his competition index and debt warnings earn him a national reputation.",
   },
   {
-    year: "2036",
-    text: "Alan founds the Civic Ledger, a nonpartisan institute that helps cities prevent fiscal crises through open budgets and independent audits.",
+    year: "2036-42",
+    text: "Alan co-founds Meridian Economic Partners and later chairs the Northstar Exchange, helping firms restructure without taxpayer rescues.",
   },
   {
-    year: "2042",
-    text: "Appointed to Caprica's Electoral Integrity Commission, Alan leads a nationwide system of paper verification and transparent recounts.",
+    year: "2043-47",
+    text: "Returning to public service, Alan chairs the National Council of Economic Advisers and publishes The Quiet State, his landmark work on crisis prevention.",
   },
   {
-    year: "2048-54",
-    text: "As Minister for Civil Administration, Alan establishes civilian oversight of emergency powers and automatic sunset reviews.",
+    year: "2048-59",
+    text: "Alan restores price stability as governor of the Central Reserve, then leads the commission that returns emergency financial authority to the legislature.",
   },
   {
     year: "2060",
