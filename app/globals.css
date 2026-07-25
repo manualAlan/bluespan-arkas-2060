@@ -150,7 +150,7 @@ h1 {
 .tagline {
   max-width: 620px;
   margin-bottom: 0;
-  color: var(--blue);
+  color: #192b61;
   font-size: clamp(28px, 4.5vw, 58px);
   font-weight: 900;
   line-height: 1;
