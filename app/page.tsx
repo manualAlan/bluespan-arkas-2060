@@ -150,7 +150,7 @@ export default function Home() {
           <img
             className="message-photo"
             src="/campaign/message-community.webp"
-            alt="A diverse group of young Capricans standing together"
+            alt="A diverse group of Capricans joining hands"
           />
         </div>
       </section>
