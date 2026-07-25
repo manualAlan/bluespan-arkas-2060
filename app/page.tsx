@@ -20,6 +20,73 @@ const issues = [
   "Executive restraint",
 ];
 
+const events = [
+  {
+    date: "Sep 12",
+    dateTime: "2060-09-12T18:30",
+    type: "Presidential Town Hall",
+    city: "San Vicente",
+    venue: "Harbor Civic Auditorium",
+    time: "6:30 PM",
+  },
+  {
+    date: "Sep 16",
+    dateTime: "2060-09-16T17:00",
+    type: "Campaign Rally",
+    city: "Domicilio Blanco",
+    venue: "Republic Square",
+    time: "5:00 PM",
+  },
+  {
+    date: "Sep 20",
+    dateTime: "2060-09-20T19:00",
+    type: "Presidential Town Hall",
+    city: "Montiablo",
+    venue: "Montiablo Municipal Forum",
+    time: "7:00 PM",
+  },
+  {
+    date: "Sep 24",
+    dateTime: "2060-09-24T18:00",
+    type: "Campaign Rally",
+    city: "Ambarino",
+    venue: "Foundry Commons",
+    time: "6:00 PM",
+  },
+  {
+    date: "Sep 29",
+    dateTime: "2060-09-29T18:30",
+    type: "Presidential Town Hall",
+    city: "Dubois",
+    venue: "Dubois Union Hall",
+    time: "6:30 PM",
+  },
+  {
+    date: "Oct 3",
+    dateTime: "2060-10-03T16:00",
+    type: "Campaign Rally",
+    city: "Caille",
+    venue: "University Commons",
+    time: "4:00 PM",
+  },
+  {
+    date: "Oct 8",
+    dateTime: "2060-10-08T19:00",
+    type: "Presidential Town Hall",
+    city: "Valcartier",
+    venue: "Laurent Civic Theatre",
+    time: "7:00 PM",
+  },
+  {
+    date: "Oct 12",
+    dateTime: "2060-10-12T17:30",
+    type: "Campaign Rally",
+    city: "Marae Bay",
+    venue: "Seafarers Pavilion",
+    time: "5:30 PM",
+  },
+];
+
 const timeline = [
   {
     year: "2006",
@@ -61,6 +128,7 @@ export default function Home() {
           <a href="#meet">Meet Alan</a>
           <a href="#message">The Message</a>
           <a href="#issues">On the Issues</a>
+          <a href="#events">Events</a>
           <a href="#join">Join</a>
         </nav>
       </header>
@@ -168,6 +236,32 @@ export default function Home() {
             <a href="#join" key={issue}>
               {issue}
             </a>
+          ))}
+        </div>
+      </section>
+
+      <section className="events-section" id="events" aria-labelledby="events-title">
+        <div className="events-header">
+          <p className="eyebrow">On the Trail</p>
+          <h2 id="events-title">Upcoming Events</h2>
+          <p>
+            Join Alan and Draqi for town halls and rallies across Caprica.
+          </p>
+        </div>
+        <div className="event-list">
+          {events.map((event) => (
+            <article className="event" key={`${event.date}-${event.city}`}>
+              <time className="event-date" dateTime={event.dateTime}>
+                {event.date}
+                <span>2060</span>
+              </time>
+              <div className="event-details">
+                <p>{event.type}</p>
+                <h3>{event.city}</h3>
+                <address>{event.venue}</address>
+              </div>
+              <p className="event-time">{event.time}</p>
+            </article>
           ))}
         </div>
       </section>
