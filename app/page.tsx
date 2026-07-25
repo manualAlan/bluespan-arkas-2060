@@ -256,7 +256,7 @@ export default function Home() {
           </div>
           <div className="issues-video">
             <iframe
-              src="https://www.youtube.com/embed/gZ1DS7W2vxQ"
+              src="https://www.youtube.com/embed/EBtqwB9K3FA"
               title="Alan Bluespan III on the issues"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               allowFullScreen
