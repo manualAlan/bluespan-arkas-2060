@@ -22,6 +22,37 @@ const issues = [
   "Peaceful transfer of power",
 ];
 
+const timeline = [
+  {
+    year: "2006",
+    text: "Alan is born on April 15 in Chasberg, Chasmia.",
+  },
+  {
+    year: "2024-28",
+    text: "Alan graduates cum laude from the University of Caille with degrees in law and economics.",
+  },
+  {
+    year: "2029-35",
+    text: "As a public-interest attorney, Alan defends ballot access, local associations, and small enterprises against arbitrary state action.",
+  },
+  {
+    year: "2036",
+    text: "Alan founds the Civic Ledger, a nonpartisan institute that helps cities prevent fiscal crises through open budgets and independent audits.",
+  },
+  {
+    year: "2042",
+    text: "Appointed to Caprica's Electoral Integrity Commission, Alan leads a nationwide system of paper verification and transparent recounts.",
+  },
+  {
+    year: "2048-54",
+    text: "As Minister for Civil Administration, Alan establishes civilian oversight of emergency powers and automatic sunset reviews.",
+  },
+  {
+    year: "2060",
+    text: "Alan declares his candidacy for president with Draqi, promising a government of laws that returns power to its citizens.",
+  },
+];
+
 export default function Home() {
   return (
     <main>
@@ -69,13 +100,33 @@ export default function Home() {
             mate. Their campaign begins with one conviction: public office is a
             duty entrusted by citizens, not a throne.
           </p>
-          <a href="#message">Learn more</a>
+          <a href="#timeline">View Alan's timeline</a>
         </div>
         <img
           className="feature-photo"
           src="/campaign/portrait-archive.jpeg"
           alt="Alan Bluespan III reviewing papers during an early public forum"
         />
+      </section>
+
+      <section
+        className="timeline-section"
+        id="timeline"
+        aria-labelledby="timeline-title"
+      >
+        <div className="timeline-inner">
+          <p className="eyebrow">A Life of Public Trust</p>
+          <h2 id="timeline-title">Alan's Timeline</h2>
+          <ol className="timeline">
+            {timeline.map((item) => (
+              <li key={item.year}>
+                <time>{item.year}</time>
+                <span className="timeline-marker" aria-hidden="true" />
+                <p>{item.text}</p>
+              </li>
+            ))}
+          </ol>
+        </div>
       </section>
 
       <section className="message-section" id="message">
