@@ -136,11 +136,14 @@ export default function Home() {
           <p className="eyebrow">The Message</p>
           <h2>The citizen is the protagonist.</h2>
           <p>
-            Bluespan's campaign speech warns against leaders who let small
-            failures become public crises, then mistake attention for
-            accomplishment. Government should preserve a just order where a free
-            civil society can compete, cooperate, and say: "we did this
-            ourselves."
+            Alan believes government should serve the people, not replace them.
+            Government shouldn't seek spotlight for vanity. Government exists
+            to protect liberty, the constitution, and preserve the rule of law
+            so that an open society can flourish. Together with Draqi, he will
+            restore executive restraint, strengthen democratic institutions,
+            keep military power separate from the civil society, and ensure no
+            one stands above the law. The presidency is not a throne, but a
+            temporary trust granted by the people.
           </p>
         </div>
       </section>
