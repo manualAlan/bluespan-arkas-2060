@@ -14,12 +14,10 @@ const photos = [
 ];
 
 const issues = [
+  "Anti-corruption",
+  "Pro-growth",
+  "Rule of law",
   "Executive restraint",
-  "Protect the ballot",
-  "Civil society first",
-  "Law over spectacle",
-  "Crisis prevention",
-  "Peaceful transfer of power",
 ];
 
 const timeline = [
