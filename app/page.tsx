@@ -273,7 +273,7 @@ export default function Home() {
             Join Alan and Draqi for town halls and rallies across Caprica.{" "}
             <a
               className="details-link"
-              href="https://youtu.be/EBtqwB9K3FA"
+              href="https://youtu.be/nnu-mzqm6FQ?si=YpI_CyhKyy5fo6ht"
               target="_blank"
               rel="noreferrer"
             >
