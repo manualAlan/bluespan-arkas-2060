@@ -247,12 +247,22 @@ export default function Home() {
           </p>
           <a href="#join">Join the campaign</a>
         </div>
-        <div className="policy-list">
-          {issues.map((issue) => (
-            <a href="#join" key={issue}>
-              {issue}
-            </a>
-          ))}
+        <div className="issues-content">
+          <div className="policy-list">
+            {issues.map((issue) => (
+              <a href="#join" key={issue}>
+                {issue}
+              </a>
+            ))}
+          </div>
+          <div className="issues-video">
+            <iframe
+              src="https://www.youtube.com/embed/gZ1DS7W2vxQ"
+              title="Alan Bluespan III on the issues"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowFullScreen
+            />
+          </div>
         </div>
       </section>
 
