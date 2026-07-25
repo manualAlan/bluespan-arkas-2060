@@ -50,8 +50,8 @@ export default function Home() {
         </div>
         <div className="hero-image">
           <img
-            src="/campaign/portrait-bloomberg.jpeg"
-            alt="Alan Bluespan III in a studio interview"
+            src="/campaign/portrait-office.webp"
+            alt="Alan Bluespan III smiling in his office"
           />
         </div>
       </section>
@@ -73,8 +73,8 @@ export default function Home() {
         </div>
         <img
           className="feature-photo"
-          src="/campaign/portrait-hearing.jpeg"
-          alt="Alan Bluespan III giving testimony"
+          src="/campaign/portrait-archive.jpeg"
+          alt="Alan Bluespan III reviewing papers during an early public forum"
         />
       </section>
 
@@ -144,7 +144,10 @@ export default function Home() {
       </section>
 
       <footer>
-        <img src="/campaign/bluespan-arkas-logo.png" alt="Bluespan Arkas 2060" />
+        <p className="footer-lockup" aria-label="Bluespan Arkas 2060">
+          <strong>Bluespan Arkas</strong>
+          <span>2060</span>
+        </p>
         <p>Paid for by Friends of Bluespan Arkas.</p>
       </footer>
     </main>
