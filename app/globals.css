@@ -440,6 +440,13 @@ h1 {
   line-height: 1.45;
 }
 
+.events-header .details-link {
+  color: #057dea;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+
 .event-list {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));

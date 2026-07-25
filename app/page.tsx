@@ -270,7 +270,15 @@ export default function Home() {
           <p className="eyebrow">On the Trail</p>
           <h2 id="events-title">Upcoming Events</h2>
           <p>
-            Join Alan and Draqi for town halls and rallies across Caprica.
+            Join Alan and Draqi for town halls and rallies across Caprica.{" "}
+            <a
+              className="details-link"
+              href="https://youtu.be/nnu-mzqm6FQ?si=Qpz3G3_S1rncGu0u"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Details
+            </a>
           </p>
         </div>
         <div className="event-list">
