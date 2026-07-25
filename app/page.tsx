@@ -241,11 +241,10 @@ export default function Home() {
         <div className="section-copy">
           <p className="eyebrow">Policies</p>
           <h2>On the Issues</h2>
-          <p>
+          <p className="issues-summary">
             A restrained executive. A protected ballot. A republic of laws,
             not vanity or ambition.
           </p>
-          <a href="#join">Join the campaign</a>
         </div>
         <div className="issues-content">
           <div className="policy-list">
