@@ -1,14 +1,19 @@
+import type { CSSProperties } from "react";
+
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
+const asset = (path: string) => `${basePath}${path}`;
+
 const photos = [
   {
-    src: "/campaign/portrait-forum.jpeg",
+    src: asset("/campaign/portrait-forum.jpeg"),
     alt: "Alan Bluespan III speaking at a public forum",
   },
   {
-    src: "/campaign/portrait-bloomberg.jpeg",
+    src: asset("/campaign/portrait-bloomberg.jpeg"),
     alt: "Alan Bluespan III in a studio interview",
   },
   {
-    src: "/campaign/portrait-hearing.jpeg",
+    src: asset("/campaign/portrait-hearing.jpeg"),
     alt: "Alan Bluespan III giving testimony",
   },
 ];
@@ -120,7 +125,7 @@ export default function Home() {
       <header className="site-header" aria-label="Campaign navigation">
         <a className="logo-lockup" href="#top" aria-label="Bluespan Arkas home">
           <img
-            src="/campaign/bluespan-arkas-logo.png"
+            src={asset("/campaign/bluespan-arkas-logo.png")}
             alt="Bluespan Arkas 2060"
           />
         </a>
@@ -146,7 +151,7 @@ export default function Home() {
         </div>
         <div className="hero-image">
           <img
-            src="/campaign/portrait-office.webp"
+            src={asset("/campaign/portrait-office.webp")}
             alt="Alan Bluespan III smiling in his office"
           />
         </div>
@@ -172,7 +177,7 @@ export default function Home() {
         </div>
         <img
           className="feature-photo"
-          src="/campaign/portrait-archive.jpeg"
+          src={asset("/campaign/portrait-archive.jpeg")}
           alt="Alan Bluespan III reviewing papers during an early public forum"
         />
       </section>
@@ -181,6 +186,11 @@ export default function Home() {
         className="timeline-section"
         id="timeline"
         aria-labelledby="timeline-title"
+        style={
+          {
+            "--timeline-image": `url("${asset("/campaign/portrait-podium.jpeg")}")`,
+          } as CSSProperties
+        }
       >
         <div className="timeline-inner">
           <p className="eyebrow">A Life of Public-Private Dedication</p>
@@ -215,7 +225,7 @@ export default function Home() {
           </div>
           <img
             className="message-photo"
-            src="/campaign/message-community.webp"
+            src={asset("/campaign/message-community.webp")}
             alt="A diverse group of Capricans joining hands"
           />
         </div>

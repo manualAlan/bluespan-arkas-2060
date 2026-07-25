@@ -2,6 +2,11 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
+const siteOrigin = basePath
+  ? "https://manualAlan.github.io"
+  : "https://bluespan-arkas-2060.alanmu.chatgpt.site";
+
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -13,6 +18,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL(siteOrigin),
   title: "Bluespan Arkas 2060",
   description:
     "Alan Bluespan III and Draqi for Caprica 2060: citizens first, executive restraint, and a republic of laws.",
@@ -21,7 +27,7 @@ export const metadata: Metadata = {
     description: "Caprican, Economist, Entrepreneur, Not a politician.",
     images: [
       {
-        url: "/og.png",
+        url: `${basePath}/og.png`,
         width: 1731,
         height: 909,
         alt: "Bluespan Arkas 2060 campaign",
@@ -32,11 +38,11 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Bluespan Arkas 2060",
     description: "Caprican, Economist, Entrepreneur, Not a politician.",
-    images: ["/og.png"],
+    images: [`${basePath}/og.png`],
   },
   icons: {
-    icon: "/favicon.svg",
-    shortcut: "/favicon.svg",
+    icon: `${basePath}/favicon.svg`,
+    shortcut: `${basePath}/favicon.svg`,
   },
 };
 

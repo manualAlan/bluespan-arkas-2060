@@ -218,7 +218,7 @@ h1 {
 
 .timeline-section::before {
   z-index: -2;
-  background: url("/campaign/portrait-podium.jpeg") center 32% / cover no-repeat;
+  background: var(--timeline-image) center 32% / cover no-repeat;
   transform: scale(1.04);
 }
 
