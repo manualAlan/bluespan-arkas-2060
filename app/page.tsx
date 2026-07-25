@@ -149,12 +149,18 @@ export default function Home() {
             <span>Not a politician.</span>
           </p>
         </div>
-        <div className="hero-image">
+        <a
+          className="hero-image"
+          href="https://x.com/realDonaldTrump/status/584647721883148288?s=20"
+          target="_blank"
+          rel="noreferrer"
+          aria-label="View the linked post on X"
+        >
           <img
             src={asset("/campaign/portrait-office.webp")}
             alt="Alan Bluespan III smiling in his office"
           />
-        </div>
+        </a>
       </section>
 
       <section className="intro-section" aria-labelledby="who-title">

@@ -95,6 +95,7 @@ nav {
 }
 
 .hero-image {
+  display: block;
   min-height: 420px;
   background: var(--navy);
 }
