@@ -18,7 +18,8 @@ export const metadata: Metadata = {
     "Alan Bluespan III and Draqi for Caprica 2060: citizens first, executive restraint, and a republic of laws.",
   openGraph: {
     title: "Bluespan Arkas 2060",
-    description: "Citizen. Constitutionalist. Not a Caesar.",
+    description:
+      "Caprican. Economist. Entrepreneur. Not a career politician.",
     images: [
       {
         url: "/og.png",
@@ -31,7 +32,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Bluespan Arkas 2060",
-    description: "Citizen. Constitutionalist. Not a Caesar.",
+    description:
+      "Caprican. Economist. Entrepreneur. Not a career politician.",
     images: ["/og.png"],
   },
   icons: {

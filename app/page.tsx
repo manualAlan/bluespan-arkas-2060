@@ -72,7 +72,7 @@ export default function Home() {
           <p className="eyebrow">Caprica 2060</p>
           <h1>Alan Bluespan III</h1>
           <p className="tagline">
-            Citizen. Constitutionalist. Not a Caesar.
+            Caprican. Economist. Entrepreneur. Not a career politician.
           </p>
         </div>
         <div className="hero-image">
@@ -93,12 +93,11 @@ export default function Home() {
           <h2>Meet Alan</h2>
           <p>
             Born in Chasberg, Chasmia, Alan Bluespan III is an economist,
-            investor, and public servant. After graduating cum laude from the
+            entrepreneur, and public servant. A cum laude graduate of the
             University of Caille, he built a national reputation at Caprica's
-            Treasury, co-founded the technology-focused Meridian Ventures, and
-            later chaired the Caprica Growth Partnership. He is running for
-            president with Draqi on a conviction that public office is a duty
-            entrusted by citizens, not a throne.
+            Treasury, co-founded Meridian Ventures, and later chaired the
+            Caprica Growth Partnership. He is running for president with Draqi
+            on the belief that public office is a duty, not a throne.
           </p>
           <a href="#timeline">View Alan's timeline</a>
         </div>
