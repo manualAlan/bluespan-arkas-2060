@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     description: "Caprican, Economist, Entrepreneur, Not a politician.",
     images: [
       {
-        url: `${basePath}/og.png`,
+        url: `${basePath}/og-v2.png`,
         width: 1731,
         height: 909,
         alt: "Bluespan Arkas 2060 campaign",
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Bluespan Arkas 2060",
     description: "Caprican, Economist, Entrepreneur, Not a politician.",
-    images: [`${basePath}/og.png`],
+    images: [`${basePath}/og-v2.png`],
   },
   icons: {
     icon: [
