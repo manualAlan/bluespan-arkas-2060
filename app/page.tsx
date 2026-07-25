@@ -114,7 +114,7 @@ export default function Home() {
         aria-labelledby="timeline-title"
       >
         <div className="timeline-inner">
-          <p className="eyebrow">A Life of Public Trust</p>
+          <p className="eyebrow">A Life of Public-Private Dedication</p>
           <h2 id="timeline-title">Alan's Timeline</h2>
           <ol className="timeline">
             {timeline.map((item) => (
