@@ -14,7 +14,8 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Bluespan Arkas 2060",
-  description: "A fictional Caprica campaign website for Bluespan Arkas 2060.",
+  description:
+    "Alan Bluespan III and Draqi for Caprica 2060: citizens first, executive restraint, and a republic of laws.",
   icons: {
     icon: "/favicon.svg",
     shortcut: "/favicon.svg",
