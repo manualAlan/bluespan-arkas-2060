@@ -86,6 +86,7 @@ nav {
 }
 
 .hero-copy {
+  container-type: inline-size;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -119,14 +120,19 @@ p {
 }
 
 h1 {
-  max-width: 9.5ch;
+  max-width: none;
   margin-bottom: 18px;
-  color: var(--navy);
-  font-size: clamp(56px, 6.8vw, 104px);
+  background: linear-gradient(90deg, #233ae9 0%, #ab4cdb 100%);
+  background-clip: text;
+  color: transparent;
+  font-size: clamp(20px, 8cqi, 72px);
   font-weight: 900;
-  line-height: 0.9;
+  line-height: 0.95;
   letter-spacing: 0;
+  white-space: nowrap;
   text-transform: uppercase;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .tagline {
@@ -697,10 +703,6 @@ footer p {
 
   .photo-strip {
     grid-template-columns: 1fr;
-  }
-
-  h1 {
-    font-size: clamp(44px, 15vw, 68px);
   }
 
   .tagline {
