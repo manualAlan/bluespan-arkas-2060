@@ -275,7 +275,7 @@ export default function Home() {
       <section className="join-section" id="join" aria-labelledby="join-title">
         <div>
           <p className="eyebrow">Join Us</p>
-          <h2 id="join-title">Stand with Bluespan and Draqi.</h2>
+          <h2 id="join-title">Stand with Alan and Draqi.</h2>
           <p>
             Lend us the honor of serving Caprica, and help build a republic
             strong enough to belong to its citizens.
