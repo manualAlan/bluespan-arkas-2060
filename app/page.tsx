@@ -92,9 +92,13 @@ export default function Home() {
           <p className="eyebrow">About</p>
           <h2>Meet Alan</h2>
           <p>
-            Alan Bluespan III is running for president with Draqi as his running
-            mate. Their campaign begins with one conviction: public office is a
-            duty entrusted by citizens, not a throne.
+            Born in Chasberg, Chasmia, Alan Bluespan III is an economist,
+            investor, and public servant. After graduating cum laude from the
+            University of Caille, he built a national reputation at Caprica's
+            Treasury, co-founded the technology-focused Meridian Ventures, and
+            later chaired the Caprica Growth Partnership. He is running for
+            president with Draqi on a conviction that public office is a duty
+            entrusted by citizens, not a throne.
           </p>
           <a href="#timeline">View Alan's timeline</a>
         </div>
