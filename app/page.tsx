@@ -133,18 +133,25 @@ export default function Home() {
 
       <section className="message-section" id="message">
         <div className="message-inner">
-          <p className="eyebrow">The Message</p>
-          <h2>The citizen is the protagonist.</h2>
-          <p>
-            Alan believes government should serve the people, not replace them.
-            Government shouldn't seek spotlight for vanity. Government exists
-            to protect liberty, the constitution, and preserve the rule of law
-            so that an open society can flourish. Together with Draqi, he will
-            restore executive restraint, strengthen democratic institutions,
-            keep military power separate from the civil society, and ensure no
-            one stands above the law. The presidency is not a throne, but a
-            temporary trust granted by the people.
-          </p>
+          <div className="message-copy">
+            <p className="eyebrow">The Message</p>
+            <h2>The citizen is the protagonist.</h2>
+            <p>
+              Alan believes government should serve the people, not replace
+              them. Government shouldn't seek spotlight for vanity. Government
+              exists to protect liberty, the constitution, and preserve the
+              rule of law so that an open society can flourish. Together with
+              Draqi, he will restore executive restraint, strengthen democratic
+              institutions, keep military power separate from the civil
+              society, and ensure no one stands above the law. The presidency
+              is not a throne, but a temporary trust granted by the people.
+            </p>
+          </div>
+          <img
+            className="message-photo"
+            src="/campaign/message-community.webp"
+            alt="A diverse group of young Capricans standing together"
+          />
         </div>
       </section>
 

@@ -297,7 +297,11 @@ h1 {
 }
 
 .message-inner {
-  max-width: 1060px;
+  display: grid;
+  grid-template-columns: minmax(0, 1.12fr) minmax(300px, 0.72fr);
+  gap: clamp(34px, 5vw, 74px);
+  align-items: center;
+  max-width: 1320px;
   margin: 0 auto;
 }
 
@@ -308,6 +312,13 @@ h1 {
 
 .message-inner p {
   color: #dce8ff;
+}
+
+.message-photo {
+  width: 100%;
+  aspect-ratio: 0.82;
+  object-fit: cover;
+  object-position: center;
 }
 
 .issues-section {
@@ -470,6 +481,7 @@ footer p {
 
   .hero,
   .feature-section,
+  .message-inner,
   .issues-section,
   .join-section {
     grid-template-columns: 1fr;
