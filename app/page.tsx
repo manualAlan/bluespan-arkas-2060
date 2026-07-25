@@ -74,7 +74,7 @@ const events = [
     dateTime: "2060-10-08T19:00",
     type: "Presidential Town Hall",
     city: "Valcartier",
-    venue: "Laurent Civic Theatre",
+    venue: "Laurent Civic Theater",
     time: "7:00 PM",
   },
   {
