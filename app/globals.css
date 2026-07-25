@@ -67,6 +67,7 @@ img {
 
 nav {
   display: flex;
+  align-items: center;
   flex-wrap: wrap;
   justify-content: flex-end;
   gap: 18px clamp(18px, 3vw, 38px);
